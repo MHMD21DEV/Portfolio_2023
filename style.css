@@ -215,9 +215,11 @@ section{
     color: #11213f;
 }
 
-.contact .info p {
+.contact .info p a{
     font-size: 1.1em;
     justify-content: center;
+    text-decoration: none;
+    color: #ff6347;
 }
 
 .footer {

@@ -57,7 +57,7 @@ section{
 .main h2{
     color: white;
     font-size: 1.4em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .main h2 span{
@@ -246,7 +246,7 @@ span {
     padding: 0 15px 0 0;
 }
 
-@media (max-width:1023px) {
+@media (max-width:1024px) {
     header {
         padding: 10px 20px;
     }
@@ -266,22 +266,23 @@ span {
 
 @media (max-width:500px) {
     header {
-        padding: 0px 10px
+        padding: 5px 50px;
     }
     .navigation a {
         padding-left: 35px;
     }
     .title {
         font-size: 1.8em;
+        padding-top: 80px;
     }
     section {
-        padding: 80px 20px;
+        padding: 25px 20px;
         justify-content: center;
     }
 }
 @media (max-width:400px) {
     header {
-        padding: 0px 10px
+        padding: 5px 30px;
     }
     .navigation a {
         padding-left: 35px;
@@ -290,14 +291,14 @@ span {
         font-size: 1.8em;
     }
     section {
-        padding: 80px 20px;
+        padding: 25px 20px;
         justify-content: center;
     }
 }
 
-@media (max-width:380px) {
+@media (max-width:360px) {
     header {
-        padding: 0px 10px
+        padding: 5px 30px;
     }
     .navigation a {
         padding-left: 27px;
@@ -306,21 +307,10 @@ span {
         font-size: 1.8em;
     }
     section {
-        padding: 80px 20px;
+        padding: 20px 20px;
         justify-content: center;
     }
-}
-
-@media (max-width:300px) {
-    header {
-        padding: 0px 18px
-    }
-    .navigation a {
-        padding-left: 15px;
-    }
-    section {
-        padding: 80px 10px 0px 10px;
-        justify-content: center;
-        font-size: 0.71em;
+    h2 {
+        margin-top: 50px;
     }
 }

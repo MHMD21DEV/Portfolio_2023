@@ -31,7 +31,7 @@ header {
     text-decoration: none;
     color: tomato;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding-left: 30px;
 }
 
@@ -290,7 +290,7 @@ span {
         margin: auto;
     }
     .navigation a {
-        padding-left: 90px;
+        padding-left: 70px;
     }
     .title {
         font-size: 2.8em;

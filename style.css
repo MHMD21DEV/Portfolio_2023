@@ -286,7 +286,7 @@ span {
 }
 @media (max-width:400px) {
     header {
-        padding: 20px 20px;
+        padding: 10px 20px;
         margin: auto;
     }
     .navigation a {
@@ -302,7 +302,7 @@ span {
         justify-content: center;
     }
     .main h2 {
-        margin-top: 100px;
+        margin-top: 110px;
         font-weight: 800;
     }
     .main {

@@ -286,17 +286,27 @@ span {
 }
 @media (max-width:400px) {
     header {
-        padding: 5px 30px;
+        padding: 20px 20px;
+        margin: auto;
     }
     .navigation a {
-        padding-left: 35px;
+        padding-left: 90px;
     }
     .title {
-        font-size: 1.8em;
+        font-size: 2.8em;
+        margin-top: 20px;
     }
     section {
-        padding: 25px 20px;
+        font-size: 0.71em;
+        padding: 20px 20px;
         justify-content: center;
+    }
+    .main h2 {
+        margin-top: 100px;
+        font-weight: 800;
+    }
+    .main {
+        padding: 150px 30px;
     }
 }
 

@@ -312,11 +312,21 @@ span {
         margin-top: -5px;
     }
     section {
-        padding: 20px 20px;
+        font-size: 0.9em;
         justify-content: center;
     }
-    h2 {
-        margin-top: 80px;
+    .main h2 {
+        margin-top: 55px;
+        font-weight: 800;
+    }
+    .main {
+        padding: 150px 30px;
+    }
+    .contact .info p a{
+        font-size: 1em;
+        justify-content: center;
+        text-decoration: none;
+        color: #ff6347;
     }
 }
 @media (max-width:280px) {

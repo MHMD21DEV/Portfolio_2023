@@ -263,11 +263,44 @@ span {
     section {
         padding: 80px 20px;
     }
-    .main-content h2 {
+    .main {
         font-size: 1em;
+        padding: 50px 100px 0px 50px;
+        margin-left: 0px;
+    }
+    .main h2 {
+        margin: 100px 0px 0px 0px;
     }
 }
-
+@media (max-width:932px) {
+    .main {
+        padding-top: 20px;
+    }
+}
+@media (max-width:915px) {
+    .main h2 {
+        margin: 65px 0px 0px 0px;
+    }
+}
+@media (max-width:740px) {
+    .main {
+        font-size: 0.71em;
+        padding-left: 145px;
+    }
+    .main h2 {
+        margin-top: 55px;
+    }
+}
+@media (max-width:540px) {
+    .main {
+        font-size: 1em;
+        padding-left: 15px;
+        margin-left: 0px;
+    }
+    .main h2 {
+        margin-top: 50px;
+    }
+}
 @media (max-width:500px) {
     header {
         padding: 5px 50px;
@@ -283,6 +316,18 @@ span {
         padding: 25px 20px;
         justify-content: center;
     }
+    .main {
+        padding-left: 120px;
+        font-size: 0.9em;
+    }
+    .main h2 {
+        margin-top: 255px;
+        font-weight: 900;
+        font-size: 1.5em;
+    }
+    .main-btn {
+        font-size: 1.16em;
+    }
 }
 @media (max-width:400px) {
     header {
@@ -290,7 +335,7 @@ span {
         margin: auto;
     }
     .navigation a {
-        padding-left: 70px;
+        padding-left: 60px;
     }
     .title {
         font-size: 2.8em;
@@ -301,15 +346,30 @@ span {
         padding: 20px 20px;
         justify-content: center;
     }
-    .main h2 {
-        margin-top: 110px;
-        font-weight: 800;
-    }
     .main {
         padding: 150px 30px;
+        font-size: 0.7em;
+    }
+    .main h2 {
+        margin-top: 110px;
+        font-weight: 900;
+        font-size: 1.48em;
     }
 }
-
+@media (max-width:390px) {
+    .main h2 {
+        margin-top: 200px;
+        font-weight: 900;
+        font-size: 1.8em;
+    }
+}
+@media (max-width:385px) {
+    .main h2 {
+        margin-top: 110px;
+        font-weight: 900;
+        font-size: 1.48em;
+    }
+}
 @media (max-width:360px) {
     header {
         padding: 5px 30px;
@@ -325,12 +385,13 @@ span {
         font-size: 0.9em;
         justify-content: center;
     }
-    .main h2 {
-        margin-top: 55px;
-        font-weight: 800;
-    }
     .main {
         padding: 150px 30px;
+        font-size: 0.9em;
+    }
+    .main h2 {
+        margin-top: 65px;
+        font-weight: 800;
     }
     .contact .info p a{
         font-size: 1em;
@@ -362,6 +423,10 @@ span {
     }
     h2 {
         margin-top: 80px;
+    }
+    .main {
+        font-size: 0.6em;
+        padding: 200px 30px 0px 30px;
     }
     .main-btn {
         font-size: 1.3em;

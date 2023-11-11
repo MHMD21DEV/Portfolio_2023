@@ -355,6 +355,9 @@ span {
         font-weight: 900;
         font-size: 1.48em;
     }
+    .main-btn {
+        margin-left: 10px;
+    }
 }
 @media (max-width:390px) {
     .main h2 {
